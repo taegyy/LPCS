@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
             { name: "타이레놀", storage: "그늘지고 건조한 곳에 보관", expiryDate: "36개월" },
             { name: "비포티프", storage: "밀폐용기, 실온(15~30도)", expiryDate: "36개월" },
         ] },
-        { symptom: "인후통", drugs: [
+        { symptom: "인후통"||"목 아픔", drugs: [
             { name: "한미플루", storage: "기밀용기, 실온(1~30도)보관", expiryDate: "6주" },
             { name: "타이레놀", storage: "그늘지고 건조한 곳에 보관", expiryDate: "36개월" },
             { name: "탁센", storage: "직사광선을 피하고 기밀용기(1~30도)", expiryDate: "36개월" },
@@ -131,6 +131,44 @@ document.addEventListener("DOMContentLoaded", function() {
         { symptom: "치통", drugs: [
             { name: "이가탄", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
             { name: "타이레놀", storage: "그늘지고 건조한 곳에 보관", expiryDate: "36개월" },
+        ] },
+        { symptom: "두드러기", drugs: [
+            { name: "지르텍", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+            { name: "클라리틴", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+        ] },
+        { symptom: "목 불편", drugs: [
+            { name: "코마키텐", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "24개월" },
+            { name: "오트리빈", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+            { name: "스트랩실", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+            { name: "모가프렌", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "24개월" },
+            { name: "미놀F", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+        ] },
+        { symptom: "목이 뻣뻣함", drugs: [
+            { name: "아스피린", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "24개월" },
+            { name: "아세트아미노펜", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+        ] },
+        { symptom: "목 잠김", drugs: [
+            { name: "스트랩실", storage: "실온보관", expiryDate: "36개월" },
+            { name: "모가프렌", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "24개월" },
+            { name: "미놀F", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+        ] },
+        { symptom: "피부 알레르기", drugs: [
+            { name: "항히스타민제", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+        ] },
+        { symptom: "피부 염증", drugs: [
+            { name: "에스트로반 연고", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "24개월" },
+        ] },
+        { symptom: "허리아픔", drugs: [
+            { name: "타이레놀", storage: "그늘지고 건조한 곳에 보관", expiryDate: "36개월" },
+            { name: "이지엔", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+            { name: "탁센", storage: "기밀용기, 실온보관", expiryDate: "36개월" },
+            { name: "그날엔", storage: "실온보관", expiryDate: "36개월" },
+        ] },
+        { symptom: "요통", drugs: [
+            { name: "타이레놀", storage: "그늘지고 건조한 곳에 보관", expiryDate: "36개월" },
+            { name: "이지엔", storage: "기밀용기, 실온보관(1~30℃)", expiryDate: "36개월" },
+            { name: "탁센", storage: "기밀용기, 실온보관", expiryDate: "36개월" },
+            { name: "그날엔", storage: "실온보관", expiryDate: "36개월" },
         ] },
     ];
 
